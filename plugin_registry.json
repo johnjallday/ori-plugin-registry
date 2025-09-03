@@ -12,7 +12,7 @@
       "name": "music-project-manager",
       "description": "Manage REAPER ReaScripts: list available scripts or launch them",
       "path": "uploaded_plugins/reascript_launcher.so",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "github_repo": "https://github.com/johnjallday/dolphin-music-project-manager/",
       "download_url": "https://github.com/johnjallday/dolphin-music-project-manager/releases/latest/download/music_project_manager.so"
     }
