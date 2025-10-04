@@ -3,10 +3,10 @@
     {
       "name": "reaper-script-launcher",
       "description": "Manage REAPER ReaScripts: list available scripts or launch them with agent_settings.json persistence",
-      "path": "uploaded_plugins/reascript_launcher.so",
+      "path": "uploaded_plugins/dolphin-reaper-plugin.so",
       "version": "0.0.3",
       "github_repo": "https://github.com/johnjallday/dolphin-reaper",
-      "download_url": "https://github.com/johnjallday/dolphin-reaper/releases/latest/download/reascript_launcher.so"
+      "download_url": "https://github.com/johnjallday/dolphin-reaper/releases/latest/download/dolphin-reaper-plugin.so"
     },
     {
       "name": "music-project-manager",
