@@ -2,10 +2,10 @@
   "plugins": [
     {
       "description": "Manage REAPER ReaScripts: list available scripts or launch them with agent_settings.json persistence",
-      "download_url": "https://github.com/johnjallday/dolphin-reaper/releases/latest/download/dolphin-reaper-plugin",
+      "download_url": "https://github.com/johnjallday/dolphin-reaper/releases/latest/download/dolphin-reaper-plugin.so",
       "github_repo": "https://github.com/johnjallday/dolphin-reaper",
       "name": "reaper-script-launcher",
-      "path": "uploaded_plugins/dolphin-reaper-plugin",
+      "path": "uploaded_plugins/dolphin-reaper-plugin.so",
       "version": "0.0.4"
     },
     {
