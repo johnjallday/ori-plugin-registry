@@ -6,7 +6,7 @@
       "github_repo": "https://github.com/johnjallday/dolphin-reaper",
       "name": "reaper-script-launcher",
       "path": "uploaded_plugins/dolphin-reaper-plugin",
-      "version": "0.0.3"
+      "version": "0.0.4"
     },
     {
       "description": "Manage music projects and REAPER templates",
