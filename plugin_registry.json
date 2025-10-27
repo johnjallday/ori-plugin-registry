@@ -2,18 +2,35 @@
   "plugins": [
     {
       "description": "Manage REAPER ReaScripts: list available scripts or launch them with agent_settings.json persistence",
-      "download_url": "https://github.com/johnjallday/dolphin-reaper/releases/latest/download/dolphin-reaper",
-      "github_repo": "https://github.com/johnjallday/dolphin-reaper",
+      "download_url": "https://github.com/johnjallday/ori-reaper/releases/latest/download/ori-reaper",
+      "github_repo": "https://github.com/johnjallday/ori-reaper",
       "name": "reaper-script-launcher",
-      "path": "uploaded_plugins/dolphin-reaper",
-      "version": "0.0.4"
+      "path": "uploaded_plugins/ori-reaper",
+      "supported_arch": [
+        "amd64",
+        "arm64"
+      ],
+      "supported_os": [
+        "darwin",
+        "windows",
+        "linux"
+      ],
+      "version": "0.0.5"
     },
     {
       "description": "Manage music projects and REAPER templates",
-      "download_url": "https://github.com/johnjallday/dolphin-music-project-manager/releases/latest/download/music-project-manager",
-      "github_repo": "https://github.com/johnjallday/dolphin-music-project-manager/",
+      "download_url": "https://github.com/johnjallday/ori-music-project-manager/releases/latest/download/music-project-manager",
+      "github_repo": "https://github.com/johnjallday/ori-music-project-manager/",
       "name": "music-project-manager",
       "path": "uploaded_plugins/music-project-manager",
+      "supported_arch": [
+        "amd64",
+        "arm64"
+      ],
+      "supported_os": [
+        "darwin",
+        "windows"
+      ],
       "version": "0.0.5"
     }
   ]
