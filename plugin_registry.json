@@ -1,37 +1,56 @@
 {
   "plugins": [
     {
-      "description": "Manage REAPER ReaScripts: list available scripts or launch them with agent_settings.json persistence",
-      "download_url": "https://github.com/johnjallday/ori-reaper/releases/latest/download/ori-reaper",
-      "github_repo": "https://github.com/johnjallday/ori-reaper",
-      "name": "reaper-script-launcher",
-      "path": "uploaded_plugins/ori-reaper",
-      "supported_arch": [
-        "amd64",
-        "arm64"
+      "name": "ori-reaper",
+      "version": "0.0.7",
+      "description": "REAPER DAW integration - manage scripts, actions, and workflows for music production",
+      "license": "MIT",
+      "repository": "https://github.com/johnjallday/ori-reaper",
+      "maintainers": [
+        {
+          "name": "Ori Agent Team",
+          "email": "noreply@ori-agent.dev"
+        }
       ],
-      "supported_os": [
-        "darwin",
-        "windows",
-        "linux"
+      "platforms": [
+        {
+          "os": "darwin",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ]
+        }
       ],
-      "version": "0.0.5"
+      "requirements": {
+        "min_ori_version": "0.0.9",
+        "dependencies": []
+      }
     },
     {
-      "description": "Manage music projects and REAPER templates",
-      "download_url": "https://github.com/johnjallday/ori-music-project-manager/releases/latest/download/music-project-manager",
-      "github_repo": "https://github.com/johnjallday/ori-music-project-manager/",
-      "name": "music-project-manager",
-      "path": "uploaded_plugins/music-project-manager",
-      "supported_arch": [
-        "amd64",
-        "arm64"
+      "name": "ori-music-project-manager",
+      "version": "0.0.8",
+      "description": "Manage music projects with REAPER integration - create, list, open, and organize music production projects",
+      "license": "MIT",
+      "repository": "https://github.com/johnjallday/ori-music-project-manager",
+      "maintainers": [
+        {
+          "name": "Ori Agent Team",
+          "email": "johnj.alldayok@ori-agent.dev"
+        }
       ],
-      "supported_os": [
-        "darwin",
-        "windows"
+      "platforms": [
+        {
+          "os": "darwin",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ]
+        }
       ],
-      "version": "0.0.6"
+      "requirements": {
+        "min_ori_version": "0.0.9",
+        "dependencies": []
+      }
     }
   ]
 }

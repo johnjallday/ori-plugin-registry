@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(pip3 list:*)",
+      "Bash(pip3 install:*)",
+      "Bash(command -v:*)",
+      "Bash(brew install:*)",
+      "Bash(./update-registry.sh:*)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []
